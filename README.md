@@ -1,4 +1,4 @@
-# Alpha智能图像
+# <img src="assets/logo.png" width="30px" height="30px" />Alpha智能图像
 ## _Image Detection And Image Recognition Tools_
 
 **首页展示**  
