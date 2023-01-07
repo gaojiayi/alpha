@@ -1,0 +1,11 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /alpha/v1/getb            --> alpha-core/src/controller.GetDataB (2 handlers)
+[GIN-debug] POST   /alpha/image/identify     --> alpha-core/src/controller.ExecmagesIdentify (2 handlers)
+[GIN-debug] POST   /alpha/image/detect       --> alpha-core/src/controller.ExecImagesDetect (2 handlers)
+[GIN-debug] POST   /alpha/image/upload       --> alpha-core/src/controller.UploadImages (2 handlers)
+[GIN-debug] POST   /alpha/about/message/add  --> alpha-core/src/controller.AddMessage (2 handlers)
+[GIN-debug] GET    /alpha/about/message/query --> alpha-core/src/controller.QueryAllMessage (2 handlers)
+[GIN-debug] GET    /alpha/resource/download  --> alpha-core/src/controller.FileDownload (2 handlers)
